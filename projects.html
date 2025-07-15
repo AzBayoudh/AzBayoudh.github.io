@@ -16,18 +16,33 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
+
   <h1>Project Highlights</h1>
   <h2>Things I've Built</h2>
-  <p>These are some mini-projects I've done with AWS, Azure, and Terraform.</p>
-  <strong>Lambda Functions</strong> and <em>SNS alerts</em> were fun to try.
-  <ul>
-    <li>Email Alert System</li>
-    <li>Static Site Deployment</li>
-  </ul>
-  <dl>
-    <dt>S3</dt>
-    <dd>Used to host a static resume site</dd>
-  </dl>
-  <p>Check out <a href="https://github.com/AzBayoudh" target="_blank">my GitHub</a>.</p>
+  <p>Here’s a couple small projects I worked on using AWS, Azure, and Terraform. I mainly did these to test what I was learning and mess around with stuff hands-on.</p>
+
+  <div class="project-grid">
+    <div class="project-box">
+      <h3>Email Alert System</h3>
+      <p>Set up a Lambda function to send out email alerts using SNS and SES.</p>
+      <ul>
+        <li>Lambda trigger on S3 uploads</li>
+        <li>Alerts sent via SNS topic</li>
+      </ul>
+    </div>
+
+    <div class="project-box">
+      <h3>Static Resume Site</h3>
+      <p>Used S3 and Route 53 to host a clean, serverless resume website. Simple but useful.</p>
+      <dl>
+        <dt>S3</dt>
+        <dd>Used to store and serve HTML</dd>
+        <dt>Route 53</dt>
+        <dd>Connected a custom domain</dd>
+      </dl>
+    </div>
+  </div>
+
+  <p>Check out more stuff on <a href="https://github.com/AzBayoudh" target="_blank">my GitHub</a>.</p>
 </body>
 </html>
