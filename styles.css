@@ -24,16 +24,19 @@ img {
   width: 300px;
   margin: 10px 10px 10px 0;
 }
-.project-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.project-section {
+  display: flex;
+  flex-direction: row;
   gap: 20px;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 
-.project-box {
-  background-color: #ffffff;
-  border: 1px solid #ccc;
+.project-card {
+  flex: 1;
+  min-width: 300px;
+  background-color: #fff;
   padding: 15px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
 }
