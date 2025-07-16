@@ -24,13 +24,10 @@ dl {
   margin-top: 1em;
 }
 
-dt {
+dt::after {
+  content: ":";
   font-weight: bold;
   margin-top: 0.5em;
-}
-
-dd::before {
-  content: ": ";
 }
 
 dd {
